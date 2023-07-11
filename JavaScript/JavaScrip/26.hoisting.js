@@ -1,12 +1,10 @@
-//Arrow functions
-/* function sayHello(name) {
-  console.log(`Hola ${name}`);
+//Hoisting
+sayHello();
+
+/* function sayHello() {
+  console.log("Hola!");
 } */
 
-const sayHello = (name) => {
-    console.log(`Hola ${name}`);
-  };
-  
-  sayHello();
-  
-  //No se puede hacer hoisting con ellas
+const sayHello = () => {
+  console.log("Hola");
+};
