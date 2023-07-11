@@ -20,9 +20,9 @@ for(let i =0; i< 6; i ++) {
 
 const  apps = ['Facebook', 'Netflix', 'Instagram', 'Snapchat', 'Twitter'];
 const ulElement = document.createElement("ul");
-apps.forEach((app) => {
+apps.forEach((apps) => {
     const liElement = document.createElement("li");
-    liElement.textContent = app;
+    liElement.textContent = apps;
     ulElement.appendChild(liElement);
 
 });
