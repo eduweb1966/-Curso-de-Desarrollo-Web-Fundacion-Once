@@ -1,3 +1,4 @@
+//2.2 Inserta dinamicamente en un html un div que contenga una p con javascript.
 const div = document.createElement("div");
 div.innerHTML = "Soy el div";
 console.log(div);
@@ -33,15 +34,36 @@ document.body.appendChild(ulElement);
 
 function myFunction() {
     var element = document.getElementById("fn-remove-me");
-    element.classList.remove("fn-remove-me");
+    element.classList.remove();
   }
 
 
 //2.8 Inserta una p con el texto 'Voy en medio!' entre los dos div.
 
+ // Obtén los elementos <div> con la clase "fn-insert-here"
+const divs = document.getElementsByClassName("fn-insert-here");
+
+// Crea un nuevo elemento <p>
+const p = document.createElement("p");
+const texto = document.createTextNode("Voy en medio!");
+
+// Añade el texto al elemento <p>
+p.appendChild(texto);
+
+// Inserta el elemento <p> entre los dos divs
+divs[0].insertAdjacentElement("afterend", p);
 
 
 //Recuerda que no solo puedes insertar elementos con .appendChild.
 //2.9 Inserta p con el texto 'Voy dentro!', dentro de todos los div con la clase. fn-insert-here 
+
+window.addEventListener('DOMContentLoaded', () => {
+  const divs = document.querySelectorAll('.fn-insert-here');
+  divs.forEach((div) => {
+    const p = document.createElement('p');
+    p.textContent = 'Voy dentro!';
+    div.appendChild(p);
+  });
+});
 
  
