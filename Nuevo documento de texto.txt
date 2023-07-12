@@ -1,0 +1,7 @@
+https://github.com/eduweb1966/Curso_Desarrollo_WeB (repositorio de antonio)
+
+
+
+npm create vite@latest (PARA CREAR UN PORTAFOLIO VITE )
+
+https://talkai.info/es/chat/
