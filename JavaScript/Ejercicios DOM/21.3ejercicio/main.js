@@ -65,4 +65,12 @@ const countries2 = [
   });
   console.log(countries)
 
+//1.5 Basandote en el ejercicio anterior. Crea un botón que elimine el último
+//elemento de la serie de divs.
+
+
+
+//1.6 Basandote en el ejercicio anterior. Crea un botón para cada uno de los
+//divs que elimine ese mismo elemento del html.
+
  
