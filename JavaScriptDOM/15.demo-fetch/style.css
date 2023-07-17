@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-:root
-=======
 :root {
   --primary: rgb(26, 26, 26);
   --secondary: rgb(227, 227, 227);
@@ -50,4 +47,3 @@ footer {
   height: 250px;
   object-fit: cover;
 }
->>>>>>> 8f0400adbda5bac2c804c0bffb593362bc96224e
