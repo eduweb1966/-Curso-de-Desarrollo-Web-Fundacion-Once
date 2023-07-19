@@ -1,7 +1,7 @@
 import "./Projects.css";
 import { cleanPage } from "../../utils/cleanPage";
-import { projects } from "../../data/projects";
-import { ProjectCard } from "../../components/ProjectCard/ProjectCard";
+import { projectqqs } from "../../data/projects";
+import { ProjectCard } from "../../pages/Projects/Projects.js";
 import { Divider } from "../../components/Divider/Divider";
 export const Projects = () => {
 const main = document.querySelector("main");
