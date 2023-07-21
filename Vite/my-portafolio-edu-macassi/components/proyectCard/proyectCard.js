@@ -16,6 +16,8 @@ export const ProjectCard = (project) => `
 <div class="detail">
 <p>${project.description}</p>
 <p class="tech">${project.tech.join(" - ")}</p>
+
+Práctica guiada Portfolio [Opcional] 10
 </div>
 </div>
 `;
