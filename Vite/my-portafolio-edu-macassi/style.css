@@ -1,44 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
-
-:root {
-  --primary-dark: whitesmoke;
-  --bg-dark: #111111;
-  --primary-light: #111111;
-  --bg-light: whitesmoke;
-  --highlight: #6cace4;
-  --divider: rgb(164, 164, 164);
-}
-
-{ margin: 0; padding: 0; box-sizing: border-box; font-family: "Roboto", sans-serif; }
-li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: var(--bg-dark);
-  color: var(--primary-dark);
-  transition: all 0.5s ease-in-out;
-}
-
-.light {
-  background-color: var(--bg-light);
-  color: var(--primary-light);
-}
-
-main {
+.projects {
+  padding: 0 8rem;
   min-height: 80vh;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
-a,
-p {
-  font-size: 1.1rem;
+@media (max-width: 770px) {
+  .projects {
+    padding: 0 2rem;
+  }
+}
+
+.projects>h2 {
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 8rem;
+}
+
+@media (max-width: 770px) {
+  .projects-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
 }
