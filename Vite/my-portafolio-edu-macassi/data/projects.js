@@ -1,6 +1,6 @@
 export const projects = [
     {
-    title: "Primer proyecto",
+    title: "Primer proyecto - Portafolio Eduardo Rodriguez Macassi",
     description: "Esta es la descripción de mi primer proyecto",
     image:
     "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2VifGVufDB8fDB8fA",
