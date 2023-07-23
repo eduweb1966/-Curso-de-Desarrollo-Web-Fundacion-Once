@@ -1,22 +1,23 @@
-import "./Projects.css";
-import { cleanPage } from "../../utils/cleanPage";
-import { projects } from "../../data/projects";
-import { ProjectCard } from "../../components/ProjectCard/ProjectCard";
-import { Divider } from "../../components/Divider/Divider";
+import "./ProjectCard.css";
 
-export const Projects = () => { const main = document.querySelector("main"); cleanPage(main); main.innerHTML =`
-    <section class="projects">
-      <h2>Featured Projects</h2>
-      ${Divider()}
-      <div class="projects-container"></div>
-    </section>;
-    `
+export const ProjectCard = (project) => `
+<div class="project-card">
+<img src=${project.image} alt=${project.title}/>
+<div class="header">
+<h2>${project.title}</h2>
+<div>
+<a href=${project.github}>
+<img src="/icons/github.png" alt="GitHub Icon" />
+</a>
+<a href=${project.link}>
+<img src="/icons/link.png" alt="Link icon" />
+</a>
+</div>
+</div>
 
-const container = document.querySelector(".projects-container");
-
-for (const project of projects) {
-    const figure = document.createElement("figure");
-    figure.innerHTML = ProjectCard(project);
-    container.appendChild(figure);
-  }
-};
+<div class="detail">
+<p>${project.description}</p>
+<p class="tech">${project.tech.join(" - ")}</p>
+</div>
+</div>
+`;
