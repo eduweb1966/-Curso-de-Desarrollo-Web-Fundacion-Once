@@ -6,8 +6,8 @@ cleanPage(main);
 main.innerHTML = `
 <section class="home">
 <p>Portafolio de :</p>
-<h1>Eduardo Rodriguez Macassi</h1>
+<h1>Eduardo Antonio Rodriguez Macassi</h>
 <p>Este es un Trabajo para aprobar el curso de Desarrollo Web y Trata de Vender de Equipos Musicales</p>
-<a href="mailto:peterparker@gmail.com">Estos son →</a>
+<a href="mailto:erodriguezmacassi@gmail.com">Estos son →</a>
 </section>`;
 };

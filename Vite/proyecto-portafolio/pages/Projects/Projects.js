@@ -8,7 +8,7 @@ const main = document.querySelector("main");
 cleanPage(main);
 main.innerHTML = `
 <section class="projects">
-<h2>Featured Projects</h2>
+<h2>Ingreso al Proyecto</h2>
 ${Divider()}
 <div class="projects-container"></div>
 </section>`;

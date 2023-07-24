@@ -16,7 +16,7 @@ themeBtn.innerText = "☀";
 };
 export const Navbar = () => `
 <nav>
-<h2>Eduardo Rodriguez Macassi</h2>
+<h2>Eduardo Antonio Rodriguez Macassi</h2>
 <ul>
 <li>
 <a href="#" id="homelink">Home</a>
