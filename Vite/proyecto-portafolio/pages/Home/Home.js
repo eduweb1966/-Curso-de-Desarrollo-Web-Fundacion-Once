@@ -7,7 +7,6 @@ main.innerHTML = `
 <section class="home">
 <p>Portafolio de :</p>
 <h1>Eduardo Antonio Rodriguez Macassi</h>
-<p>Este es un Trabajo para aprobar el curso de Desarrollo Web y Trata de Vender de Equipos Musicales</p>
-<a href="mailto:erodriguezmacassi@gmail.com">Estos son →</a>
+<p>Este es un Trabajo para es el para el Curso de Desarrollo Web y Trata de Mostrar de Equipos Musicales de Todo Tipo</p>
 </section>`;
 };

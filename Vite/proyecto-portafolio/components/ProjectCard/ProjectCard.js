@@ -14,11 +14,8 @@ export const ProjectCard = (project) => `
 <a href=${project.twitter}>
 <img src="/icons/twitter.png" alt="Twitter icon" />
 </a>
-<a href=${telegrams.link}>
-<img src="/icons/telegram.png" alt="Telegram icon" />
-</a>
 </div>
-<div>
+</div>
 <div class="detail">
 <p>${project.description}</p>
 <p class="tech">${project.tech.join(" - ")}</p>

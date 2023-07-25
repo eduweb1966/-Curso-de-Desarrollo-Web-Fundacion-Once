@@ -1,45 +1,45 @@
 export const projects = [
     {
-    title: "Primer proyecto",
-    description: "Esta es la descripción de mi primer proyecto",
+    title: "Instrumentos Musicales Andinos",
+    description: "Muestra variada de instrumentos Andinos",
     image:
-    "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2VifGVufDB8fDB8fA",
+    "https://res.cloudinary.com/dmklwicfb/image/upload/v1690282171/inmstrumentos_musicales_andinos_anoa6l.jpg",
     tech: ["React", "HTML5", "CSS3", "JavaScript"],
     github: "http://github.com/myuser/proyecto1",
     link: "www.proyecto1.com",
     },
     {
-    title: "Segundo proyecto",
-    description: "Esta es la descripción de mi segundo proyecto",
+    title: "Instrumentos de Cuerda",
+    description: "Muestra variada de Instrumentos de Cuerda",
     image:
-    "https://images.unsplash.com/photo-1661961111184-11317b40adb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&a",
+    "https://res.cloudinary.com/dmklwicfb/image/upload/v1690282012/instrumentos_de_cuerda_y9eyac.jpg",
     tech: ["React", "HTML5", "CSS3", "JavaScript"],
     github: "http://github.com/myuser/proyecto2",
     link: "www.proyecto1.com",
     },
     {
-    title: "Tercer proyecto",
-    description: "Esta es la descripción de mi tercer proyecto",
+    title: "Instrumentos Musicales de India",
+    description: "Muetra Variada de Instrumentos Musicales de India",
     image:
-    "https://images.unsplash.com/photo-1669570094762-828f3dfaf675?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&a",
+    "https://res.cloudinary.com/dmklwicfb/image/upload/v1690282011/instrumentos_musicales_de_India_psea6g.jpg",
     tech: ["React", "HTML5", "CSS3", "JavaScript"],
     github: "http://github.com/myuser/proyecto3",
     link: "www.proyecto1.com",
     },
     {
-    title: "Cuarto proyecto",
-    description: "Esta es la descripción de mi cuarto proyecto",
+    title: "Instrumentos de Percusion",
+    description: "Muetra Variada de Instrumentos Musicales de Precusión",
     image:
-    "https://images.unsplash.com/photo-1664575198308-3959904fa430?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&a",
+    "https://res.cloudinary.com/dmklwicfb/image/upload/v1690282011/instruymnetos_de_percusion_dmlr7z.jpg",
     tech: ["React", "HTML5", "CSS3", "JavaScript"],
     github: "http://github.com/myuser/proyecto4",
     link: "www.proyecto1.com",
     },
     {
-    title: "Quinto proyecto",
-    description: "Esta es la descripción de mi quinto proyecto",
+    title: "Instrumentos de Viento",
+    description: "Muetra Variada de Instrumentos Musicales de Viento",
     image:
-    "https://images.unsplash.com/photo-1665686306574-1ace09918530?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&a",
+    "https://res.cloudinary.com/dmklwicfb/image/upload/v1690282011/instrumentos_de_viento_mob1u0.jpg",
     tech: ["React", "HTML5", "CSS3", "JavaScript"],
     github: "http://github.com/myuser/proyecto5",
     link: "www.proyecto1.com",
