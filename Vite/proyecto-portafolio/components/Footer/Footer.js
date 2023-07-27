@@ -7,6 +7,5 @@ export const Footer = () => `
 ${Button("/icons/twitter.png", "Twitter")}
 ${Button("/icons/github.png", "GitHub")}
 ${Button("/icons/linkeding.png", "LinkedIn")}
-${Button("/icons/telegram.png", "Telegram")}
 </div>
 `;
