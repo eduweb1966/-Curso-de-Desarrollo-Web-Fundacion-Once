@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 3rem;
+    gap: 4rem;
     font-size: medium;
     }
     @media (max-width: 700px) {
@@ -14,11 +14,11 @@
     }
     }
     .home > h1 {
-    font-size: 5.5rem;
+    font-size: 6.5rem;
     background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: negro;
     }
     .home > a {
     font-size: 1.5rem;
