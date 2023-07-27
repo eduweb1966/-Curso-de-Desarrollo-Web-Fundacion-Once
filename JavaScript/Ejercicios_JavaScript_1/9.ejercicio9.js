@@ -23,6 +23,27 @@ const familiaAddams = [
   "Thing (La Mano)",
 ];
 
+respuesta:
+
+function palabraMasLarga(arr) {
+  if (arr.length === 0) {
+    return null; // Si el array está vacío, no hay ninguna palabra más larga.
+  }
+
+  let palabraMasLarga = arr[0]; // Suponemos que el primer elemento es el más largo inicialmente.
+
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i].length > palabraMasLarga.length) {
+      palabraMasLarga = arr[i]; // Si encontramos una palabra más larga, la actualizamos.
+    }
+  }
+
+  return palabraMasLarga;
+}
+      
+console.log(palabraMasLarga(avengers)); // Devuelve "Spiderman"
+console.log(palabraMasLarga(familiaAddams)); // Devuelve "Gómez Addams"
+
 //Declaramos la función que por argumento recibirá una lista
 function findLongestWord(list) {
   //Inicializamos una variable llamada longestWord con valor string vacío para ir metiendo si la palabra es más larga que la anterior
