@@ -7,6 +7,6 @@ main.innerHTML = `
 <section class="home">
 <p>Portafolio de :</p>
 <h1>Eduardo Antonio Rodriguez Macassi</h>
-<p>Este es un Trabajo para es el para el Curso de Desarrollo Web y Trata de Mostrar de Equipos Musicales de Todo Tipo</p>
+<p>Este es un Trabajo para es el para el Curso de Desarrollo Web y Trata de Mostrar de Equipos Musicales de Todo el Mundo</p>
 </section>`;
 };
