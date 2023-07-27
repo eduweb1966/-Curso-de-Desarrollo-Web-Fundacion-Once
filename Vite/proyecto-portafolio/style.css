@@ -24,9 +24,9 @@ html {
 scroll-behavior: smooth;
 }
 body {
-    background-image: url(https://res-console.cloudinary.com/dmklwicfb/thumbnails/v1/image/upload/v1690445414/bm90YXNfbXVzaWNhbGVzX3BhcmFfZm9uZG9fZGVfcGFudGFsbGFfc2xjYWx4/template_primary/Y190aHVtYix3XzI0MDAsaF85MDAsZ19hdXRv);
+    background: linear-gradient(90deg, rgba(0,0,0,0.5187324929971988) 0%, rgba(0,0,0,0.5355392156862745) 100%, rgba(0,212,255,1) 100%),url(https://res-console.cloudinary.com/dmklwicfb/thumbnails/v1/image/upload/v1690445414/bm90YXNfbXVzaWNhbGVzX3BhcmFfZm9uZG9fZGVfcGFudGFsbGFfc2xjYWx4/template_primary/Y190aHVtYix3XzI0MDAsaF85MDAsZ19hdXRv);
 background-color: var(--bg-dark);
-color: var(--primary-dark);
+color: var(--bg-light);
 transition: all 0.5s ease-in-out;
 }
 .light {
