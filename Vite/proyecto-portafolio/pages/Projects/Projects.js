@@ -8,7 +8,7 @@ const main = document.querySelector("main");
 cleanPage(main);
 main.innerHTML = `
 <section class="projects">
-<h2>Mostrar las variedades de Instrumentos Musicales</h2>
+<h2>Mostrar las variedades de Instrumentos Musicales Pricipales que existen en el Mundo</h2>
 ${Divider()}
 <div class="projects-container"></div>
 </section>`;
